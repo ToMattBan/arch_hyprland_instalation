@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export user="k"
+export user=$(whoami)
 
 echo "Installing Hyprland-DE"
 paru -S `cat package_list.txt`
