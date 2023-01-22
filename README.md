@@ -7,14 +7,14 @@
 
 Installation
 
+Set locales:
+3-locale.sh - Set your language, change as needed
+
 Format disk:
 1-disk.sh - DON'T RUN WITHOUT CHECKING FIRST, IT WILL FORMAT THE DEVICE AND CREATE SUBVOLUMES
 
 Mount partitions:
 2-mount.sh - Will mount all btrfs subvolumes and optionally an external home partition, change as needed
-
-Set locales:
-3-locale.sh - Set your language, change as needed
 
 Enable additional repos:
 If using wifi, connect it using iwctl
