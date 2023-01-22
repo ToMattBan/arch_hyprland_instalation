@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Exporting disk for use in install/repair"
-export disk="/dev/sda"
+export disk=$(cat ./disk.txt)
 export sv_opts="rw,noatime,compress-force=zstd:1,space_cache=v2"
 
 echo "Mounting root"

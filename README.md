@@ -17,6 +17,7 @@ Set locales:
 3-locale.sh - Set your language, change as needed
 
 Enable additional repos:
+If using wifi, connect it using iwctl
 4-repos.sh - Will enabled additional repos, CachyOS, Chaotic AUR and ArchlinuxCN 
 
 Install base system:
@@ -32,7 +33,7 @@ Enable repos for installed system:
 4-repos.sh - Now for your installed system instead of live environment
 
 Install bootloader:
-6-boot.sh - Will install grub and configure mkinitcpio modules/hooks for early KMS and grub-btrfs, change accordingly to GPU
+6-boot.sh - Will install grub and configure mkinitcpio modules/hooks for early KMS and grub-btrfs
 
 Prepare user environment:
 7-user.sh - Create user and set passwords, also define some system variables

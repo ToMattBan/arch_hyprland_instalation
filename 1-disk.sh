@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Exporting Disk for installation"
-export disk="/dev/sda"
+export disk=$(cat ./disk.txt)
 
 echo "Formatting the partitions"
 mkfs.vfat -F32 ${disk}1
