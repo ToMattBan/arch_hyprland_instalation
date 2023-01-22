@@ -27,7 +27,7 @@ mount -o ${sv_opts},subvol=@tmp ${disk}2 /mnt/var/tmp
 mount -o ${sv_opts},subvol=@snapshots ${disk}2 /mnt/.snapshots
 
 # Uncomment when using home subvolume
-#mount -o ${sv_opts},subvol=@home ${disk}2 /mnt/home
+mount -o ${sv_opts},subvol=@home ${disk}2 /mnt/home
 
 # Uncomment when using home in other partition
-mount ${disk}3 /mnt/home
+# mount ${disk}3 /mnt/home

@@ -13,7 +13,7 @@ mount ${disk}2 /mnt
 echo "Creating subvolumes"
 btrfs subvolume create /mnt/@
 # Uncomment when wanting to use home as subvolume instead of another partition
-# btrfs subvolume create /mnt/@home
+btrfs subvolume create /mnt/@home
 btrfs subvolume create /mnt/@root
 btrfs subvolume create /mnt/@srv
 btrfs subvolume create /mnt/@pacman

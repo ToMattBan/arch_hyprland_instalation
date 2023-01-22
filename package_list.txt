@@ -135,3 +135,7 @@ xorg-xdpyinfo
 xorg-xhost
 xorg-xinit
 xorg-xlsclients
+
+
+linux-cachyos-header
+tuxedo-keyboard-dkms

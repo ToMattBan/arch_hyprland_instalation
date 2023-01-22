@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Uncomment depending on your cpu
-# export microcode="intel-ucode"
-export microcode="amd-ucode"
+# export microcode="amd-ucode"
+export microcode="intel-ucode"
 
 # Kernel variant
 export opt="-cachyos" ## "", "-zen", "-cachyos", "-xanmod", "-lts" etc. needs to be in repo
