@@ -4,7 +4,7 @@ export host="arch"
 # Your editor
 export edit="nano"
 # Your username
-export user="k"
+export user="tomatt"
 #!/bin/sh
 
 echo "Setting host"
