@@ -46,11 +46,8 @@ pipewire-jack
 pipewire-pulse
 wireplumber
 
-bluez
-bluez-plugins
-bluez-tools
-bluez-utils
 bluez-git
+bluez-tools
 blueman
 
 chromium
