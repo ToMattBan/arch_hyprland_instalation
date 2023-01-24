@@ -50,6 +50,8 @@ bluez
 bluez-plugins
 bluez-tools
 bluez-utils
+bluez-git
+blueman
 
 chromium
 clapper
